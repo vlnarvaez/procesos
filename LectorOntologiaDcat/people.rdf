@@ -1,0 +1,26 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://purl.org/dc/terms/"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:j.1="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.2="http://xmlns.com/foaf/0.1/">
+  <j.2:Person rdf:about="person01">
+    <j.0:subject>
+      <j.1:Concept rdf:about="./Subject:SBC">
+        <rdfs:label>Sistemas Basados en Conocimiento</rdfs:label>
+      </j.1:Concept>
+    </j.0:subject>
+    <j.2:name>Luis Castro</j.2:name>
+    <vcard:Family>Castro</vcard:Family>
+    <vcard:Given>Luis</vcard:Given>
+    <vcard:FN>Luis Castro</vcard:FN>
+    <rdf:type rdf:resource="http://www.w3.org/2001/vcard-rdf/3.0#AGENT"/>
+  </j.2:Person>
+  <vcard:AGENT rdf:about="person02">
+    <j.0:subject rdf:resource="./Subject:SBC"/>
+    <vcard:Family>Burgos</vcard:Family>
+    <vcard:Given>Carla</vcard:Given>
+    <vcard:FN>Carla Burgos</vcard:FN>
+  </vcard:AGENT>
+</rdf:RDF>
